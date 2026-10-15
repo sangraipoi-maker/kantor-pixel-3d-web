@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Kantor Pixel 3D</title>
+    <script>
+      // Jembatan data statis: bundle dasbor (sama persis dengan artefak Muse
+      // kantor-pixel-3d) meminta data lewat POST ./actions {action:"get_dashboard"}.
+      // Di situs statis ini, permintaan itu dijawab dari berkas data.json —
+      // snapshot yang sama yang ditulis rantai sinkron tiap ±15 menit.
+      (function () {
+        var nativeFetch = window.fetch.bind(window);
+        function isActionsCall(input, init) {
+          try {
+            var url = typeof input === "string" ? input : input.url;
+            var method = (init && init.method) || (typeof input !== "string" && input.method) || "GET";
+            return method.toUpperCase() === "POST" && /\/actions(\?|#|$)/.test(url);
+          } catch (e) {
+            return false;
+          }
+        }
+        window.fetch = function (input, init) {
+          if (isActionsCall(input, init)) {
+            var bodyText = (init && init.body) || "";
+            var action = null;
+            try {
+              action = JSON.parse(bodyText).action;
+            } catch (e) {}
+            if (action === "get_dashboard") {
+              return nativeFetch("data.json?t=" + Date.now(), { cache: "no-store" })
+                .then(function (r) {
+                  if (!r.ok) throw new Error("data.json HTTP " + r.status);
+                  return r.json();
+                })
+                .then(function (dash) {
+                  return new Response(JSON.stringify({ data: dash }), {
+                    status: 200,
+                    headers: { "content-type": "application/json" },
+                  });
+                })
+                .catch(function (err) {
+                  return new Response(JSON.stringify({ error: String(err) }), {
+                    status: 200,
+                    headers: { "content-type": "application/json" },
+                  });
+                });
+            }
+            return Promise.resolve(
+              new Response(JSON.stringify({ data: { ok: true } }), {
+                status: 200,
+                headers: { "content-type": "application/json" },
+              })
+            );
+          }
+          return nativeFetch(input, init);
+        };
+      })();
+    </script>
+    <link rel="stylesheet" crossorigin href="./assets/index-qwbwxv3f.css" />
+    <script type="module" crossorigin src="./assets/index-r8j2rq1k.js"></script>
+  </head>
+  <body>
+    <div data-generated-space-root="" data-generated-space-slug="kantor-pixel-3d"></div>
+  </body>
+</html>
