@@ -515,16 +515,16 @@
     }
   ],
   "metrics": {
-    "captured_at": "2026-10-16T16:41:57Z",
+    "load1": 0.9,
     "cpu_count": 2,
-    "disk_pct": 34,
-    "disk_total_gb": 100,
-    "disk_used_gb": 34,
-    "load1": 0.15,
-    "mem_avail_mb": 757,
     "mem_total_mb": 7935,
-    "uptime_text": "1 jam, 28 menit"
+    "mem_avail_mb": 743,
+    "disk_used_gb": 34,
+    "disk_total_gb": 100,
+    "disk_pct": 34,
+    "uptime_text": "1 jam, 43 menit",
+    "captured_at": "2026-10-16T16:56:41.498Z"
   },
   "source_latest_id": 57,
-  "synced_at": "2026-10-16T16:41:57Z"
+  "synced_at": "2026-10-16T16:56:41.498Z"
 }
