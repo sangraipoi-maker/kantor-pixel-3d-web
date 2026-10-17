@@ -515,16 +515,16 @@
     }
   ],
   "metrics": {
-    "captured_at": "2026-10-17T11:56:36Z",
+    "captured_at": "2026-10-17T12:12:04Z",
     "cpu_count": 2,
     "disk_pct": 35,
     "disk_total_gb": 100,
     "disk_used_gb": 35,
-    "load1": 2.92,
-    "mem_avail_mb": 2305,
+    "load1": 3.84,
+    "mem_avail_mb": 2383,
     "mem_total_mb": 7935,
-    "uptime_text": "2 jam 19 menit"
+    "uptime_text": "2 jam 34 menit"
   },
   "source_latest_id": 57,
-  "synced_at": "2026-10-17T11:56:36Z"
+  "synced_at": "2026-10-17T12:12:04Z"
 }
