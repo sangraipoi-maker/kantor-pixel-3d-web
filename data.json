@@ -371,7 +371,7 @@
     },
     {
       "detail": null,
-      "from_id": "muskav",
+      "from_id": "damar",
       "id": 42,
       "kind": "report",
       "label": "4 contoh palet PIONIR (ringan, tampilan saja) selesai dan terunggah",
@@ -434,7 +434,7 @@
     },
     {
       "detail": null,
-      "from_id": "damar",
+      "from_id": "muskav",
       "id": 49,
       "kind": "delegate",
       "label": "Website baru palet Tropis Ceria: salinan penuh diwarnai ulang, tanda PIONIR + nama dosen dihapus",
@@ -456,7 +456,7 @@
       "id": 51,
       "kind": "deliver",
       "label": "Website Baru — Tropis Ceria selesai di Drive: tanda PIONIR nol, nama dosen nol",
-      "to_id": "muskav",
+      "to_id": "arkasha",
       "ts": "2026-10-11T18:44:27.492Z"
     },
     {
@@ -492,7 +492,7 @@
       "id": 55,
       "kind": "deliver",
       "label": "Tropis Ceria LIVE di psikuis.my.id + backup tampilan lama tersimpan di Drive",
-      "to_id": "muskav",
+      "to_id": "arkasha",
       "ts": "2026-10-11T18:58:09.585Z"
     },
     {
