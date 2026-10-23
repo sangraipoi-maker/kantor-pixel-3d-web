@@ -55,7 +55,7 @@
       "ts": "2026-10-10T16:52:26.467Z"
     },
     {
-      "detail": null,
+      "detail": "Siap, batch render gw jalanin sekarang lewat Nafis",
       "from_id": "arkasha",
       "id": 7,
       "kind": "order",
@@ -124,7 +124,7 @@
       "kind": "deliver",
       "label": "Divisi Programming sudah masuk kantor (17 anggota) + figur sekarang tembus",
       "to_id": "arkasha",
-      "ts": "2026-10-10T17:05:49.880Z"
+      "ts": "2026-10-10T16:55:49.880Z"
     },
     {
       "detail": null,
@@ -133,7 +133,7 @@
       "kind": "report",
       "label": "Konversi buku tahap 1 selesai: 6 ebook Klinis jadi markdown penuh (133 berkas)",
       "to_id": "muskav",
-      "ts": "2026-10-11T17:16:25.608Z"
+      "ts": "2026-10-10T17:16:25.608Z"
     },
     {
       "detail": "Figur voxel + meja Mas Zul live di ruang Akademik; anggota ke-18 Kantor Pixel",
@@ -232,7 +232,7 @@
       "kind": "delegate",
       "label": "Input ulang paket UTS Kuantitatif terkoreksi ke situs + geser bagian UTS ke bawah materi Data Sekunder",
       "to_id": "damar",
-      "ts": "2026-10-11T16:47:23.635Z"
+      "ts": "2026-10-11T16:47:23.633Z"
     },
     {
       "detail": null,
@@ -259,7 +259,7 @@
       "kind": "delegate",
       "label": "Bedah UI/UX situs PIONIR UGM 2026 sebagai referensi tiruan (analisis vault)",
       "to_id": "kirana",
-      "ts": "2026-10-11T16:54:04.326Z"
+      "ts": "2026-10-11T16:54:04.312Z"
     },
     {
       "detail": null,
@@ -268,7 +268,7 @@
       "kind": "delegate",
       "label": "Bangun 3 template demo website latihan soal beda vibe buat etalase jualan",
       "to_id": "damar",
-      "ts": "2026-10-11T17:12:06.612Z"
+      "ts": "2026-10-11T17:12:06.632Z"
     },
     {
       "detail": null,
@@ -286,7 +286,7 @@
       "kind": "delegate",
       "label": "Bedah website referensi kedua: alternatifa.com (analisis vault)",
       "to_id": "kirana",
-      "ts": "2026-10-11T17:25:43.129Z"
+      "ts": "2026-10-11T17:25:43.153Z"
     },
     {
       "detail": null,
@@ -304,7 +304,7 @@
       "kind": "report",
       "label": "Bedah Alternatifa selesai: palet + tombol tekan + pola funnel tercatat di vault",
       "to_id": "muskav",
-      "ts": "2026-10-11T17:40:07.752Z"
+      "ts": "2026-10-11T17:40:07.754Z"
     },
     {
       "detail": null,
@@ -313,7 +313,7 @@
       "kind": "delegate",
       "label": "Bangun Template Latsol 4 'Cerah Komersial' dari bedah Alternatifa",
       "to_id": "damar",
-      "ts": "2026-10-11T17:40:10.535Z"
+      "ts": "2026-10-11T17:40:10.537Z"
     },
     {
       "detail": null,
@@ -367,7 +367,7 @@
       "kind": "delegate",
       "label": "4 contoh palet vibe PIONIR — versi ringan tampilan depan saja",
       "to_id": "damar",
-      "ts": "2026-10-11T18:02:22.312Z"
+      "ts": "2026-10-11T17:40:04.312Z"
     },
     {
       "detail": null,
@@ -376,24 +376,24 @@
       "kind": "report",
       "label": "4 contoh palet PIONIR (ringan, tampilan saja) selesai dan terunggah",
       "to_id": "muskav",
-      "ts": "2026-10-11T18:04:46.624Z"
+      "ts": "2026-10-11T18:04:47.754Z"
     },
     {
       "detail": null,
       "from_id": "muskav",
       "id": 43,
-      "kind": "delegate",
+      "kind": "deliver",
       "label": "Fitur 'Kenapa Pilihanmu Salah' live penuh untuk Klinis (5.092 penjelasan) + 1 kunci salah lama ditemukan & diperbaiki",
       "to_id": "arkasha",
       "ts": "2026-10-11T18:11:12.073Z"
     },
     {
       "detail": null,
-      "from_id": "damar",
+      "from_id": "muskav",
       "id": 44,
-      "kind": "report",
-      "label": "Baris referensi di blok 'Kenapa Pilihanmu Salah' live (commit 59df8b4)",
-      "to_id": "muskav",
+      "kind": "delegate",
+      "label": "Tambah baris referensi/sumber di blok 'Kenapa Pilihanmu Salah'",
+      "to_id": "damar",
       "ts": "2026-10-11T18:21:16.805Z"
     },
     {
@@ -466,7 +466,7 @@
       "kind": "delegate",
       "label": "Backup situs live ke Drive, lalu terapkan tampilan Tropis Ceria ke psikuis.my.id (tampilan saja)",
       "to_id": "damar",
-      "ts": "2026-10-11T18:47:43.841Z"
+      "ts": "2026-10-11T18:47:43.842Z"
     },
     {
       "detail": null,
@@ -515,16 +515,16 @@
     }
   ],
   "metrics": {
-    "captured_at": "2026-10-23T19:26:36Z",
+    "captured_at": "2026-10-23T19:41:29Z",
     "cpu_count": 2,
     "disk_pct": 54,
     "disk_total_gb": 100,
     "disk_used_gb": 53,
-    "load1": 0.46,
-    "mem_avail_mb": 841,
+    "load1": 0.15,
+    "mem_avail_mb": 388,
     "mem_total_mb": 7935,
-    "uptime_text": "19 menit"
+    "uptime_text": "34 menit"
   },
   "source_latest_id": 57,
-  "synced_at": "2026-10-23T19:26:36Z"
+  "synced_at": "2026-10-23T19:41:51Z"
 }
