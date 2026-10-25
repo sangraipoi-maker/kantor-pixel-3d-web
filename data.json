@@ -187,7 +187,7 @@
       "kind": "deliver",
       "label": "Dashboard papan ranking PsiKuis LIVE — tinggal kunci agregator dari Arkasha",
       "to_id": "arkasha",
-      "ts": "2026-10-11T16:16:48.407Z"
+      "ts": "2026-10-11T16:16:48.417Z"
     },
     {
       "detail": null,
@@ -515,16 +515,16 @@
     }
   ],
   "metrics": {
-    "captured_at": "2026-10-25T18:41:28Z",
+    "captured_at": "2026-10-25T18:56:29Z",
     "cpu_count": 2,
     "disk_pct": 54,
     "disk_total_gb": 100,
     "disk_used_gb": 53,
-    "load1": 0.9,
-    "mem_avail_mb": 539,
+    "load1": 0.55,
+    "mem_avail_mb": 248,
     "mem_total_mb": 7935,
-    "uptime_text": "37 menit"
+    "uptime_text": "52 menit"
   },
   "source_latest_id": 57,
-  "synced_at": "2026-10-25T18:41:28Z"
+  "synced_at": "2026-10-25T18:56:29Z"
 }
