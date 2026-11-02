@@ -425,7 +425,7 @@
     },
     {
       "detail": null,
-      "from_id": "muskav",
+      "from_id": "damar",
       "id": 48,
       "kind": "deliver",
       "label": "Contoh Palet PIONIR 5 'Tropis Ceria' dan 6 'Ungu Neon' selesai di Drive",
@@ -515,16 +515,16 @@
     }
   ],
   "metrics": {
-    "load1": 0.02,
+    "captured_at": "2026-11-02T10:56:43Z",
     "cpu_count": 4,
-    "mem_total_mb": 7934,
-    "mem_avail_mb": 550,
-    "disk_used_gb": 54,
-    "disk_total_gb": 150,
     "disk_pct": 36,
-    "uptime_text": "48 menit",
-    "captured_at": "2026-11-02T10:41:30Z"
+    "disk_total_gb": 150,
+    "disk_used_gb": 54,
+    "load1": 0.08,
+    "mem_avail_mb": 587,
+    "mem_total_mb": 7934,
+    "uptime_text": "1 jam 3 menit"
   },
   "source_latest_id": 57,
-  "synced_at": "2026-11-02T10:41:30Z"
+  "synced_at": "2026-11-02T10:56:43Z"
 }
