@@ -502,7 +502,7 @@
       "kind": "deliver",
       "label": "Tiga perbaikan visual live: jawaban benar hijau, header pintar, warna semester beda",
       "to_id": "arkasha",
-      "ts": "2026-10-11T18:58:36.493Z"
+      "ts": "2026-10-11T19:08:36.493Z"
     },
     {
       "detail": "Event uji Damar untuk membuktikan dasbor kantor-pixel-3d membaca umpan asli papan ini: sesudah sinkron, event ini harus tampil paling atas di log dasbor dan status Damar berubah Aktif.",
@@ -515,16 +515,16 @@
     }
   ],
   "metrics": {
-    "captured_at": "2026-11-16T12:26:32Z",
+    "captured_at": "2026-11-16T12:45:22Z",
     "cpu_count": 4,
     "disk_pct": 41,
     "disk_total_gb": 150,
     "disk_used_gb": 61,
-    "load1": 2.38,
-    "mem_avail_mb": 690,
+    "load1": 0.13,
+    "mem_avail_mb": 672,
     "mem_total_mb": 7934,
-    "uptime_text": "38 menit"
+    "uptime_text": "57 menit"
   },
   "source_latest_id": 57,
-  "synced_at": "2026-11-16T12:26:32Z"
+  "synced_at": "2026-11-16T12:45:22Z"
 }
